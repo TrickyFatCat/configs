@@ -32,7 +32,9 @@ nmap <Leader>P "+P
 nmap <Leader>v :vsplit<CR>
 nmap <Leader>h :split<CR>
 nmap <Leader>ns :action NextSplitter<CR>
-nmap <Leader>ps :action PreviousSplitter<CR>
+nmap <Leader>ps :action PrevSplitter<CR>
+nmap <Leader>us :action Unsplit<CR>
+nmap <Leader>usa :action UnsplitAll<CR>
 
 " Open Terminal
 nmap <Leader>t :action ActivateTerminalToolWindow<CR>
