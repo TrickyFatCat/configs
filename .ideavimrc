@@ -1,0 +1,56 @@
+Plug 'preservim/nerdtree'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
+Plug 'dbakker/vim-paragraph-motion'
+Plug 'machakann/vim-highlightedyank'
+
+set number
+set relativenumber
+set hlsearch
+set quickscope
+set showmode
+set incsearch
+set smartcase
+set visualbell
+set ideajoin
+
+let mapleader = "\<SPACE>"
+
+" Disable search highlight
+nnoremap <Leader>/ :nohlsearch<cr>
+
+" Refactoring 
+nnoremap <Leader>f :action ReformatCode<CR> :write<CR>
+nmap <Leader>rt :action Refactorings.QuickListPopupAction<CR>
+
+" Shortcut for copying to/from System Clipboard
+vmap <Leader>y "+y
+vmap <Leader>d "+d
+nmap <Leader>P "+P
+
+ " Splitting Windows
+nmap <Leader>v :vsplit<CR>
+nmap <Leader>h :split<CR>
+nmap <Leader>ns :NextSplitter<CR>
+nmap <Leader>ps :PreviousSplitter<CR>
+
+" Open Terminal
+nmap <Leader>t :action ActivateTerminalToolWindow<CR>
+
+" Mapping to mimic BufferExplorer
+nmap <Leader>fb :action RecentFiles<CR>
+nmap <Leader>ff :action GotoFile<CR>
+nmap <Leader>fg :action SearchEverywhere<CR>
+nmap <Leader><Leader>b :action RecentFiles<CR>
+
+" Rename
+nnoremap <leader>re :action RenameElement<CR>
+nnoremap <leader>rf :action RenameFile<CR>
+nnoremap <leader>ra :action RenameAttributeAction<CR>
+
+" Toggle ToggleDistractionFreeMode
+nmap <Leader>df :action ToggleDistractionFreeMode<CR>
+nmap <Leader>zm :action ToggleZenMode<CR>
+
+" Nerdtree want to be
+nmap <Leader>pt :action ActivateProjectToolWindow<CR>
