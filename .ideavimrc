@@ -19,6 +19,11 @@ let mapleader = "\<SPACE>"
 " Disable search highlight
 nnoremap <Leader>/ :nohlsearch<cr>
 
+" Run/Build/Debug
+nnoremap <Leader>ds :action Debug<CR>
+nnoremap <Leader>rs :action Run<CR>
+nnoremap <Leader>bs :action Build<CR>
+
 " Refactoring 
 nnoremap <Leader>f :action ReformatCode<CR> :write<CR>
 nmap <Leader>rt :action Refactorings.QuickListPopupAction<CR>
@@ -53,5 +58,9 @@ nnoremap <leader>ra :action RenameAttributeAction<CR>
 nmap <Leader>df :action ToggleDistractionFreeMode<CR>
 nmap <Leader>zm :action ToggleZenMode<CR>
 
-" Nerdtree want to be
+" Misc
 nmap <Leader>pt :action ActivateProjectToolWindow<CR>
+
+" Put search results in the middle of the screen
+nnoremap n nzz
+nnoremap N Nzz
