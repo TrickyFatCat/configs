@@ -31,8 +31,8 @@ nmap <Leader>P "+P
  " Splitting Windows
 nmap <Leader>v :vsplit<CR>
 nmap <Leader>h :split<CR>
-nmap <Leader>ns :NextSplitter<CR>
-nmap <Leader>ps :PreviousSplitter<CR>
+nmap <Leader>ns :action NextSplitter<CR>
+nmap <Leader>ps :action PreviousSplitter<CR>
 
 " Open Terminal
 nmap <Leader>t :action ActivateTerminalToolWindow<CR>
