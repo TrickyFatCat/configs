@@ -52,7 +52,6 @@ nmap <Leader><Leader>b :action RecentFiles<CR>
 " Rename
 nnoremap <leader>re :action RenameElement<CR>
 nnoremap <leader>rf :action RenameFile<CR>
-nnoremap <leader>ra :action RenameAttributeAction<CR>
 
 " Toggle ToggleDistractionFreeMode
 nmap <Leader>df :action ToggleDistractionFreeMode<CR>
