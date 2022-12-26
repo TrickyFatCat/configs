@@ -22,10 +22,10 @@ nnoremap <Leader>/ :nohlsearch<cr>
 " Run/Build/Debug
 nnoremap <Leader>ds :action Debug<CR>
 nnoremap <Leader>rs :action Run<CR>
-nnoremap <Leader>bs :action Build<CR>
+nnoremap <Leader>bs :action BuildCurrentPorject<CR>
 
 " Refactoring 
-nnoremap <Leader>f :action ReformatCode<CR> :write<CR>
+nnoremap <Leader>rc :action ReformatCode<CR> :write<CR>
 nmap <Leader>rt :action Refactorings.QuickListPopupAction<CR>
 
 " Shortcut for copying to/from System Clipboard
