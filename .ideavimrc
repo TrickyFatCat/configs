@@ -27,6 +27,7 @@ nnoremap <Leader>bs :action BuildCurrentPorject<CR>
 " Refactoring 
 nmap <Leader>rc :action ReformatCode<CR>
 nmap <Leader>rt :action Refactorings.QuickListPopupAction<CR>
+nmap <leader>rg :action Generate<CR>
 
 " Shortcut for copying to/from System Clipboard
 vmap <Leader>y "+y
@@ -75,3 +76,7 @@ vmap <Leader>cm :action ShowIntentionActions<CR>
 " to a VOID register. Meaning I still have what I originally had
 " when I pasted. I don't loose the previous thing I YANKED!
 vnoremap <leader>p "_dP
+
+" Errors
+nmap <leader>x :action GotoNextError<cr>
+nmap <leader>X :action GotoPreviousError<cr>
