@@ -25,7 +25,7 @@ nnoremap <Leader>rs :action Run<CR>
 nnoremap <Leader>bs :action BuildCurrentPorject<CR>
 
 " Refactoring 
-nnoremap <Leader>rc :action ReformatCode<CR> :write<CR>
+nmap <Leader>rc :action ReformatCode<CR>
 nmap <Leader>rt :action Refactorings.QuickListPopupAction<CR>
 
 " Shortcut for copying to/from System Clipboard
