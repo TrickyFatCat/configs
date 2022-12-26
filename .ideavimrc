@@ -63,3 +63,6 @@ nmap <Leader>pt :action ActivateProjectToolWindow<CR>
 " Put search results in the middle of the screen
 nnoremap n nzz
 nnoremap N Nzz
+
+" Toggle context menu
+nmap <Leader>cm :action ShowIntentionActions<CR>
