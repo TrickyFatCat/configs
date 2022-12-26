@@ -67,3 +67,11 @@ nnoremap N Nzz
 " Toggle context menu
 nmap <Leader>cm :action ShowIntentionActions<CR>
 vmap <Leader>cm :action ShowIntentionActions<CR>
+
+" Greatest remap EVER!! 
+" Let me explain, this remap while in visiual mode
+" will delete what is currently highlighted and replace it 
+" with what is in the register BUT it will YANK (delete) it 
+" to a VOID register. Meaning I still have what I originally had
+" when I pasted. I don't loose the previous thing I YANKED!
+vnoremap <leader>p "_dP
