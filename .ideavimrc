@@ -66,3 +66,4 @@ nnoremap N Nzz
 
 " Toggle context menu
 nmap <Leader>cm :action ShowIntentionActions<CR>
+vmap <Leader>cm :action ShowIntentionActions<CR>
