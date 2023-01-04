@@ -22,7 +22,10 @@ nnoremap <Leader>/ :nohlsearch<cr>
 " Run/Build/Debug
 nnoremap <Leader>ds :action Debug<CR>
 nnoremap <Leader>rs :action Run<CR>
+nnoremap <Leader>ss :action Stop<CR>
 nnoremap <Leader>bs :action BuildCurrentPorject<CR>
+"nnoremap <Leader>bs :action BuildSolutionAction<CR>
+"nnoremap <Leader>bs :action Build<CR>
 
 " Refactoring 
 nmap <Leader>rc :action ReformatCode<CR>
